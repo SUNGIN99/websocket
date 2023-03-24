@@ -30,7 +30,7 @@ public class NetworkModule {
         return retrofit;
     }
 
-    public static StompClient getSocket(){
+    /*public static StompClient getSocket(){
         return Stomp.over(Stomp.ConnectionProvider.OKHTTP, "wss://www.seop.site:9000"+"/stomp/game/websocket");
-    }
+    }*/
 }
